@@ -23,8 +23,12 @@ body {
 
 
 .h4Div {
+	display: flex;
+	text-align: center;
+	justify-content: center;
 	background-color: #575796;
 	height: 34px;
+	padding-top: 7px;
 	margin-bottom: 30px;
 }
 
