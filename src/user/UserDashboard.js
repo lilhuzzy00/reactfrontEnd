@@ -30,7 +30,7 @@ const Dashboard = () =>{
 
 	const userInfo = () =>(
 		<div className="card mb-5 mt-5 ">
-			<h4 className="card-header">User Information</h4>
+			<h3 className="card-header">User Information</h3>
 				<ul className="list-group">
 					<li className="list-group-item">{name}</li>
 					<li className="list-group-item">{email}</li>
@@ -72,7 +72,7 @@ const Dashboard = () =>{
 
 	const userLink = () =>(
 		<div className="card mb-5 mt-5">
-			<h4 className="card-header">User Link</h4>
+			<h3 className="card-header">User Link</h3>
 				<ul className="list-group">
 					<li className="list-group-item">
 						<Link to="/cart" className="nav-link">Cart</Link>
