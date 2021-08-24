@@ -1,0 +1,57 @@
+/*.navbar {
+	background-color: black !important;
+}
+*/
+
+.navbar-nav li {
+	display: flex;
+	justify-content: flex-end !important;
+}
+
+.navbar-brand {
+	margin-left: 6px;
+}
+
+.collapse .navbar-collapse {
+	background-color: white !important;
+}
+
+.bg-danger {
+	background-color: black !important;
+}
+
+
+@media screen and (max-width:  360px) {
+	.nav-item i {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.nav li {
+		width:  10px;
+	}
+	
+	.nav li a {
+		color: white;
+	}
+}
+
+@media screen and (max-width: 280px){
+	.nav li {
+		width:  50px;
+		text-align: left;
+		font-size: 12px;
+		background-color: transparent !important;
+	}
+}
+
+
+@media screen and (max-width: 375px){
+	.nav li {
+		width:  60px;
+		text-align: left;
+		font-size: 14px;
+		background-color: transparent !important;
+	}
+}

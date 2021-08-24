@@ -1,0 +1,29 @@
+.ShopRow {
+	/*display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	color: black;*/
+	width: 90vw;
+	margin: 10px auto;
+}
+
+.ShopRow1 {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	width: 87vw;
+}
+
+.cardRow {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	width: 800px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+}
+
+.filterDiv {
+	margin-top: 20px;
+}

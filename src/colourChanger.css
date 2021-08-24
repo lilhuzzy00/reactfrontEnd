@@ -1,0 +1,67 @@
+/*	@-webkit-keyframes Background{
+		0% {
+			background-color: #fff;
+		}
+		25% {
+			background-color: #0b1542;
+		}
+		50% {
+			background-color: gray;
+		}
+		75% {
+			background-color: blue;
+		}
+	}
+
+	@-moz-keyframes Background{
+		0% {
+			background-color: #fff;
+		}
+		25% {
+			background-color: #0b1542;
+		}
+		50% {
+			background-color: gray;
+		}
+		75% {
+			background-color: blue;
+		}
+	}
+
+	@-o-keyframes Background{
+		0% {
+			background-color: #fff;
+		}
+		25% {
+			background-color: #0b1542;
+		}
+		50% {
+			background-color: gray;
+		}
+		75% {
+			background-color: blue;
+		}
+	}
+
+	@keyframes Background{
+		0% {
+			background-color: #fff;
+		}
+		25% {
+			background-color: #0b1542;
+		}
+		50% {
+			background-color: gray;
+		}
+		75% {
+			background-color: blue;
+		}
+	}
+
+	body {
+		background-color: #fff;
+		-webkit-animation: Background 70s infinite alternate;
+		-moz-animation: Background 70s infinite alternate;
+		-o-animation: Background 70s infinite alternate;
+		animation: Background 70s infinite alternate;
+	}*/
