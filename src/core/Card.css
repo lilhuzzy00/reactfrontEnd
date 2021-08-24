@@ -23,13 +23,12 @@ body {
 
 
 .h4Div {
-	display: flex;
 	text-align: center;
-	justify-content: center;
 	background-color: #575796;
 	height: 34px;
-	padding-top: 7px;
+	padding-top: 4px;
 	margin-bottom: 30px;
+	margin-left: 7px;
 }
 
 .buttons {
