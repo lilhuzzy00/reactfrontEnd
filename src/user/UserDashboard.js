@@ -29,7 +29,7 @@ const Dashboard = () =>{
 	},[])
 
 	const userInfo = () =>(
-		<div className="card mt-5">
+		<div className="card mb-5 mt-5 ">
 			<h3 className="card-header">User Information</h3>
 				<ul className="list-group">
 					<li className="list-group-item">{name}</li>
@@ -71,7 +71,7 @@ const Dashboard = () =>{
 };
 
 	const userLink = () =>(
-		<div className="card mb-5 mt-5">
+		<div className="card mt-5">
 			<h3 className="card-header">User Link</h3>
 				<ul className="list-group">
 					<li className="list-group-item">
