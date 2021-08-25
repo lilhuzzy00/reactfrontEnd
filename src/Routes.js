@@ -27,8 +27,8 @@ import { helmet } from "react-helmet"
 const Routes =()=>{
 	return(
 		<BrowserRouter>
+			<Menu />
 			<Switch>
-				<Menu />
 				<Route path="/" exact component={Home} />
 				<Route path="/shop" exact component={Shop} />
 				<Route path="/cart" exact component={Cart} />
