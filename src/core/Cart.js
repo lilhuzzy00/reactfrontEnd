@@ -49,6 +49,11 @@ const Cart = ()=> {
 					name="keywords"
 					content="Make payments for products here"  
 				/>
+
+				<meta 
+					property="og:image"
+					content="Make payments for products here"  
+				/>
 			</helmet>
 
 			<div className="cart">
