@@ -16,8 +16,7 @@ import ManageProducts from "./Admin/ManageProducts"
 import UpdateProducts from "./Admin/UpdateProducts"
 import Profile from "./user/Profile"
 import Orders from "./Admin/Orders"
-import Menu from "../Menu" 
-
+import Menu from "./Menu" 
 import { helmet } from "react-helmet"
 
 
