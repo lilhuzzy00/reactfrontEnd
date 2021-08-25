@@ -1,7 +1,9 @@
 import React from "react"
 import {Link} from "react-router-dom"
 import Typed from 'react-typed';
+import Menu from "./Menu" 
 import Footer from "./Footer" 
+import "./menu.css"
 import "./Card.css"
 
 const Layout = ({
@@ -11,7 +13,7 @@ const Layout = ({
 	children
 }) => (
 		<div>
-			{/* <Menu /> */}
+			<Menu />
 			
 			<div className="Header">
 				<div className="Header2">
