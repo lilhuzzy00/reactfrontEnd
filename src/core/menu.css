@@ -2,6 +2,9 @@
 	background-color: black !important;
 }
 */
+.navbar {
+	position: sticky;
+}
 
 .navbar-nav li {
 	display: flex;
