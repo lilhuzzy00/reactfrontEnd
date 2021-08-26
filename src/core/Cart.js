@@ -39,22 +39,12 @@ const Cart = ()=> {
 	return (
 		<Layout>
 			<helmet>
-				<title>Checkout</title>
-				<meta 
-					name="description"
-					content="Please Checkout Here"  
-				/>
-
-				<meta 
-					name="keywords"
-					content="Make payments for products here"  
-				/>
-
-				<meta 
-					property="og:image"
-					content="Make payments for products here"  
-				/>
+				<meta charSet="utf-8" />
+                <title>Checkout</title>
+                <link rel="canonical" href="https://www.houseofgoodiz.com/cart" />
+                <meta property="og:image:secure_url" content="https://www.houseofgoodiz.com/cart"/>
 			</helmet>
+			
 
 			<div className="cart">
 				<div className="cartRow">
