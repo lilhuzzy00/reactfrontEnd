@@ -24,13 +24,13 @@ import { helmet } from "react-helmet"
 
 const Routes =()=>{
 	return(
-		<BrowserRouter>
-			<Helmet>
+		<Helmet>
 					<meta charSet="utf-8" />
 					<title>My Title</title>
 					<link rel="canonical" href="https://www.houseofgoodiz.com/" />
 					<meta property="og:image:secure_url" content="https://www.houseofgoodiz.com/images/image.png"/>
-				</Helmet>
+		</Helmet>
+		<BrowserRouter>
 			<Switch>
 				<Route path="/" exact component={Home} />
 				<Route path="/shop" exact component={Shop} />
