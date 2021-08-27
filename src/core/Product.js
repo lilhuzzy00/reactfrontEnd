@@ -45,9 +45,10 @@ const Products = (props) => {
 		<Layout>
 				<Helmet>
 					<meta charSet="utf-8" />
+					<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 					<title>{product.name}</title>
-                	<link rel="canonical" href="https://www.houseofgoodiz.com/cart" />
 					<meta property="og:url" content={`https://www.houseofgoodiz.com/product/${product._id}`}/>
+					<meta property="og:image" content={product.image}/>
 					<meta name="description" content="Single product page"/>
 				</Helmet>
 				<div className="singleProductPage" style={{backgroundColor: "white", paddingTop: "10px", paddingBottom: "110px"}} >
