@@ -100,7 +100,7 @@ const Home = () =>{
 
 
 				<div className="firstDiv" style={{backgroundColor: "white"}}>
-							<div className="h4Div"><h4 style={{fontSize: "1.25rem", fontWeight: "bold", color: "white"}} >{product.category.name}</h4></div>
+				<div className="h4Div"><h4 style={{fontSize: "1.25rem", fontWeight: "bold", color: "white"}} >Ladies & Gent Shoes</h4></div>
 					<div>
 						<div className="divTop">
 							{gentShoes.map((product, i)=>(
