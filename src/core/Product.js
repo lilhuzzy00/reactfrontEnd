@@ -48,7 +48,7 @@ const Products = (props) => {
 					<meta charSet="utf-8" />
 					<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 					<title>{product.name}</title>
-					<meta property="og:url" content={`https://www.houseofgoodiz.com/product/${product._id}`}/>
+					<meta property="og:url" content={`${API}/product/${product._id}`}/>
 					<meta property="og:image" content={`${API}/product/photo/${product._id}`}/>
 					{/* <meta property="og:image:type" content="image/jpg" />
 					<meta property="og:image:type" content="image/png" />
