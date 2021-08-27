@@ -45,7 +45,7 @@ const Products = (props) => {
 		<Layout>
 				<Helmet>
 					<meta charSet="utf-8" />
-                	<title>Checkout</title>
+					<title>{product.name}</title>
                 	<link rel="canonical" href="https://www.houseofgoodiz.com/cart" />
 					<meta property="og:url" content={`https://www.houseofgoodiz.com/product/${product._id}`}/>
 					<meta name="description" content="Single product page"/>
