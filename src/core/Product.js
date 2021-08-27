@@ -5,6 +5,8 @@ import "./Product.css";
 import ShowPhoto from "./ShowPhoto";
 import Layout from "./Layout"
 import moment from "moment"
+import {Helmet} from "react-helmet";
+
 
 
 const Products = (props) => {
@@ -41,6 +43,12 @@ const Products = (props) => {
 	return(
 
 		<Layout>
+				<Helmet>
+					<meta charSet="utf-8" />
+                	<title>Checkout</title>
+                	<link rel="canonical" href="https://www.houseofgoodiz.com/cart" />
+					<meta property="og:image:secure_url" content={`https://www.houseofgoodiz.com/${product._id}`}/>
+				</Helmet>
 				<div className="singleProductPage" style={{backgroundColor: "white", paddingTop: "10px", paddingBottom: "110px"}} >
 					<div className="imageRow">
 						<ShowPhoto item={product} url="product" />
