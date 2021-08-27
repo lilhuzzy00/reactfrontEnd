@@ -46,9 +46,8 @@ const Products = (props) => {
 				<Helmet>
 					<meta charSet="utf-8" />
                 	<title>Checkout</title>
-                	<link rel="canonical" href={`https://www.houseofgoodiz.com/${product._id}`} />
+                	<link rel="canonical" href="https://www.houseofgoodiz.com/cart" />
 					<meta property="og:url" content={`https://www.houseofgoodiz.com/product/${product._id}`}/>
-					<meta property="og:image" content={item._id}
 					<meta name="description" content="Single product page"/>
 				</Helmet>
 				<div className="singleProductPage" style={{backgroundColor: "white", paddingTop: "10px", paddingBottom: "110px"}} >
