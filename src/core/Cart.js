@@ -45,7 +45,7 @@ const Cart = ()=> {
                 <title>Checkout</title>
                 <link rel="canonical" href="https://www.houseofgoodiz.com/cart" />
 				<meta property="og:image:secure_url" content="https://www.houseofgoodiz.com/images/image.png"/>
-
+				<meta name="description" content="Checkout Page"/>
 			</Helmet>
 			
 

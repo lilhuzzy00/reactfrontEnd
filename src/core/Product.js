@@ -48,6 +48,7 @@ const Products = (props) => {
                 	<title>Checkout</title>
                 	<link rel="canonical" href="https://www.houseofgoodiz.com/cart" />
 					<meta property="og:image:secure_url" content={`https://www.houseofgoodiz.com/${product._id}`}/>
+					<meta name="description" content="Single product page"/>
 				</Helmet>
 				<div className="singleProductPage" style={{backgroundColor: "white", paddingTop: "10px", paddingBottom: "110px"}} >
 					<div className="imageRow">
