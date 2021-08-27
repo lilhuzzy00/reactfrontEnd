@@ -48,10 +48,10 @@ const Products = (props) => {
 					<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 					<title>{product.name}</title>
 					<meta property="og:url" content={`https://www.houseofgoodiz.com/product/${product._id}`}/>
-					{/* <meta property="og:image" content={`${API}/product/photo/${product._id}`}/> */}
-					<meta property="og:image:type" content="image/jpg" />
+					<meta property="og:image" content={`https://www.houseofgoodiz.com/product/photo/${product._id}`}/>
+					{/* <meta property="og:image:type" content="image/jpg" />
 					<meta property="og:image:type" content="image/png" />
-					<meta property="fb:app_id" content={`${FB_APP_ID}`} />
+					<meta property="fb:app_id" content={`${FB_APP_ID}`} /> */}
 					<meta name="description" content="Single product page"/>
 				</Helmet>
 				<div className="singleProductPage" style={{backgroundColor: "white", paddingTop: "10px", paddingBottom: "110px"}} >
