@@ -6,6 +6,8 @@ import { getCart, removeItem } from "./CartHelper"
 import Checkout from "./Checkout"
 import "./Card.css"
 import "./Checkout.css"
+import {Helmet} from "react-helmet";
+
 
 const Cart = ()=> {
 	const [items, setItem] = useState([])
@@ -38,12 +40,12 @@ const Cart = ()=> {
 
 	return (
 		<Layout>
-			<helmet>
+			<Helmet>
 				<meta charSet="utf-8" />
                 <title>Checkout</title>
                 <link rel="canonical" href="https://www.houseofgoodiz.com/cart" />
                 <meta property="og:image:secure_url" content="https://www.houseofgoodiz.com/cart"/>
-			</helmet>
+			</Helmet>
 			
 
 			<div className="cart">
