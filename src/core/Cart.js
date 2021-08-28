@@ -42,13 +42,14 @@ const Cart = ()=> {
 		<Layout>
 			<Helmet>
 				<meta charSet="utf-8" />
-                <title>Checkout</title>
-                <link rel="canonical" href="https://www.houseofgoodiz.com/cart" />
-				<meta property="og:url" content="https://www.houseofgoodiz.com/cart"/>
-				<meta name="description" content="Checkout Page"/>
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+				<title>Checkout Page</title>
+				<meta property="og:url" content={`${API}/cart`}/>
+				<meta property="og:image" content={`${API}/product/photo/${product._id}`}/>
+				<meta property="og:image:type" content="image/jpg" />
+				<meta property="og:image:type" content="image/png" />
+				<meta name="description" content="Pay for products bought here"/>
 			</Helmet>
-			
-
 			<div className="cart">
 				<div className="cartRow">
 					<div style={{marginTop: "20px"}}>

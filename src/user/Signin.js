@@ -90,18 +90,15 @@ const Signin = () =>{
 			description="Signin to node js app"
 			className="container col-md-4 offset-md-4"
 		>
-			<helmet>
+			<Helmet>
+				<meta charSet="utf-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<title>Signin</title>
-				<meta 
-					name="description"
-					content="Please Sign in to continue"  
-				/>
-
-				<meta 
-					name="keywords"
-					content="Signin to ecommerce site, buy products"  
-				/>
-			</helmet>
+				<meta property="og:url" content={`${API}/signin`}/>
+				<meta property="og:image:type" content="image/jpg" />
+				<meta property="og:image:type" content="image/png" />
+				<meta name="description" content="Sign in to continue"/>
+			</Helmet>
 			{redirectUser()}
 			{showLoading()}
 			{showError()}

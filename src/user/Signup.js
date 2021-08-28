@@ -92,18 +92,15 @@ const Signup = () =>{
 			description="Signup to node js app"
 			className="container col-md-4 offset-md-4"
 		>
-			<helmet>
-				<title>Signup</title>
-				<meta 
-					name="description"
-					content="Please Sign up to continue"  
-				/>
-
-				<meta 
-					name="keywords"
-					content="Signup to get access to amazing deals"  
-				/>
-			</helmet>
+			<Helmet>
+				<meta charSet="utf-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+				<title>Register</title>
+				<meta property="og:url" content={`${API}/signup`}/>
+				<meta property="og:image:type" content="image/jpg" />
+				<meta property="og:image:type" content="image/png" />
+				<meta name="description" content="Sign in to Register here to continue shopping"/>
+			</Helmet>
 			{showSuccess()}
 			{showError()}
 			{signUpForm()}
