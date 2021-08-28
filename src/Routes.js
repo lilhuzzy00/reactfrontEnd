@@ -15,7 +15,6 @@ import Cart from "./core/Cart"
 import ManageProducts from "./Admin/ManageProducts"
 import UpdateProducts from "./Admin/UpdateProducts"
 import Profile from "./user/Profile"
-import {Helmet} from "react-helmet";
 import Orders from "./Admin/Orders"
 
 
@@ -25,9 +24,6 @@ import Orders from "./Admin/Orders"
 const Routes =()=>{
 	return(
 		<BrowserRouter>
-			<Helmet>
-				
-			</Helmet>
 			<Switch>
 				<Route path="/" exact component={Home} />
 				<Route path="/shop" exact component={Shop} />

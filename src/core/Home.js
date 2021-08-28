@@ -86,7 +86,7 @@ const Home = () =>{
 
 	return(
 		<Layout title="Homepage" description="Node js Ecommerce App">
-			<Helmet>
+			{/* <Helmet>
 				<meta charSet="utf-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<title>Home Page</title>
@@ -94,7 +94,7 @@ const Home = () =>{
 				<meta property="og:image:type" content="image/jpg" />
 				<meta property="og:image:type" content="image/png" />
 				<meta name="description" content="Home page. View our list of products and shop"/>
-			</Helmet>
+			</Helmet> */}
 
 {/*				<Searched />
 */}				<div className="firstDiv" style={{backgroundColor: "white"}}>
