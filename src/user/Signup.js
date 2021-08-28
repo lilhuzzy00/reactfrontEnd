@@ -99,7 +99,7 @@ const Signup = () =>{
 				<meta property="og:url" content={`${API}/signup`}/>
 				<meta property="og:image:type" content="image/jpg" />
 				<meta property="og:image:type" content="image/png" />
-				<meta name="description" content="Sign in to Register here to continue shopping"/>
+				<meta name="description" content="Register here to continue shopping"/>
 			</Helmet>
 			{showSuccess()}
 			{showError()}
