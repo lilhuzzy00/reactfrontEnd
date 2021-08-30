@@ -88,8 +88,8 @@ const Home = () =>{
 			<Helmet>
 				<meta charSet="utf-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-				<title>Home Page</title>
-				<meta name="description" content="House of Goodiz"/>
+				<title>House of Goodiz</title>
+				<meta name="description" content="Home page. View our list of products and shop"/>
 			</Helmet>
 
 {/*				<Searched />
