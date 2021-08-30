@@ -3,7 +3,9 @@ import { Redirect } from "react-router-dom"
 import Layout from "../core/Layout"
 import { signin, authenticate, isAuthenticated } from "../auth"
 import {Helmet} from "react-helmet"
-const Signin = () =>{
+
+
+const Signin = (history) =>{
 	
 
 	const [values, setValues] = useState({
@@ -37,6 +39,7 @@ const Signin = () =>{
 								redirectToReferrer: true
 							})
 						})
+						history.push("/cart")
 					}
 				})
 	 	}
