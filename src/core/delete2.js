@@ -1,3 +1,4 @@
+<Link to="/signin">Signin</Link>
 	{/*<div className="footer">
 			<div className="contact">
 				<span><a href="https://wa.me/2348182082429"><i style={{color: "green", width: "30px"}} class="fab fa-whatsapp-square"></i></a></span>
