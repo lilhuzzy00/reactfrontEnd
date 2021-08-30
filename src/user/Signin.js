@@ -78,7 +78,7 @@ const Signin = (history) =>{
 	const redirectUser = () =>{
 		if(redirectToReferrer){
 			if(user && user.role === 1){
-				return <Redirect to="/admin/dashboard" />
+				return <Redirect to="/cart" />
 			} else{
 				return <Redirect to="/user/dashboard" />
 			}
