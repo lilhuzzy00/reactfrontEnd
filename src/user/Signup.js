@@ -2,7 +2,7 @@ import React, {useState} from "react"
 import { Link, Redirect } from "react-router-dom"
 import Layout from "../core/Layout"
 import { signup } from "../auth"
-import { helmet } from "react-helmet"
+import {Helmet} from "react-helmet"
 
 
 const Signup = () =>{
@@ -96,8 +96,8 @@ const Signup = () =>{
 				<meta charSet="utf-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<title>Register</title>
-				<meta property="og:url" content={`${API}/signup`}/>
-				<meta name="description" content="Register here to continue shopping"/>
+				<meta property="og:url" content={`${API}/signin`}/>
+				<meta name="description" content="Signup here to continue shopping"/>
 			</Helmet>
 			{showSuccess()}
 			{showError()}

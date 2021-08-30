@@ -2,8 +2,7 @@ import React, {useState} from "react"
 import { Redirect } from "react-router-dom"
 import Layout from "../core/Layout"
 import { signin, authenticate, isAuthenticated } from "../auth"
-import { helmet } from "react-helmet"
-
+import {Helmet} from "react-helmet"
 const Signin = () =>{
 	
 
@@ -93,9 +92,9 @@ const Signin = () =>{
 			<Helmet>
 				<meta charSet="utf-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-				<title>Signin</title>
+				<title>Sign in</title>
 				<meta property="og:url" content={`${API}/signin`}/>
-				<meta name="description" content="Sign in to continue"/>
+				<meta name="description" content="Signin here to continue shopping"/>
 			</Helmet>
 			{redirectUser()}
 			{showLoading()}
