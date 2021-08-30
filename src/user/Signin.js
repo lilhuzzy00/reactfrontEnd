@@ -2,10 +2,10 @@ import React, {useState} from "react"
 import { Redirect } from "react-router-dom"
 import Layout from "../core/Layout"
 import { signin, authenticate, isAuthenticated } from "../auth"
-import {Helmet} from "react-helmet"
-const Signin = () =>{
-	
 
+
+
+const Signin = () =>{
 	const [values, setValues] = useState({
 			email: "",
 			password: "",
@@ -89,13 +89,6 @@ const Signin = () =>{
 			description="Signin to node js app"
 			className="container col-md-4 offset-md-4"
 		>
-			{/* <Helmet>
-				<meta charSet="utf-8" />
-				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-				<title>Sign in</title>
-				<meta property="og:url" content={`${API}/signin`}/>
-				<meta name="description" content="Signin here to continue shopping"/>
-			</Helmet> */}
 			{redirectUser()}
 			{showLoading()}
 			{showError()}

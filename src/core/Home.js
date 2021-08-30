@@ -85,8 +85,7 @@ const Home = () =>{
 	return(
 		<Layout title="Homepage" description="Node js Ecommerce App">
 
-{/*				<Searched />
-*/}				<div className="firstDiv" style={{backgroundColor: "white"}}>
+				<div className="firstDiv" style={{backgroundColor: "white"}}>
 				<div className="h4Div"><h4 style={{fontSize: "1.25rem", fontWeight: "bold", color: "white"}} >Best Seller</h4></div>
 					<div>
 						<div className="divTop">
