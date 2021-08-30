@@ -44,7 +44,6 @@ const Cart = ()=> {
 				<meta charSet="utf-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<title>Checkout Page</title>
-				<meta property="og:url" content={`${API}/cart`}/>
 				<meta name="description" content="Pay for products bought here"/>
 			</Helmet>
 			<div className="cart">
