@@ -5,7 +5,7 @@ import { signin, authenticate, isAuthenticated } from "../auth"
 import {Helmet} from "react-helmet"
 
 
-const Signin = (history) =>{
+const Signin = () =>{
 	
 
 	const [values, setValues] = useState({
@@ -39,7 +39,6 @@ const Signin = (history) =>{
 								redirectToReferrer: true
 							})
 						})
-						history.push("/cart")
 					}
 				})
 	 	}
