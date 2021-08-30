@@ -95,8 +95,6 @@ const Signin = () =>{
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<title>Signin</title>
 				<meta property="og:url" content={`${API}/signin`}/>
-				<meta property="og:image:type" content="image/jpg" />
-				<meta property="og:image:type" content="image/png" />
 				<meta name="description" content="Sign in to continue"/>
 			</Helmet>
 			{redirectUser()}

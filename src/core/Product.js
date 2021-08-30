@@ -44,8 +44,6 @@ const Products = (props) => {
 	return(
 
 		<Layout>
-				
-				<div className="singleProductPage" style={{backgroundColor: "white", paddingTop: "10px", paddingBottom: "110px"}} >
 				<Helmet>
 					<meta charSet="utf-8" />
 					<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -56,6 +54,7 @@ const Products = (props) => {
 					<meta property="og:image:type" content="image/png" />
 					<meta name="description" content="Single product page"/>
 				</Helmet>
+				<div className="singleProductPage" style={{backgroundColor: "white", paddingTop: "10px", paddingBottom: "110px"}} >
 					<div className="imageRow">
 						<ShowPhoto item={product} url="product" />
 					</div>
