@@ -90,8 +90,6 @@ const Home = () =>{
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<title>Home Page</title>
 				<meta property="og:url" content={`${API}`} />
-				<meta property="og:image:type" content="image/jpg" />
-				<meta property="og:image:type" content="image/png" />
 				<meta name="description" content="Home page. View our list of products and shop"/>
 			</Helmet>
 

@@ -89,13 +89,13 @@ const Signin = () =>{
 			description="Signin to node js app"
 			className="container col-md-4 offset-md-4"
 		>
-			<Helmet>
+			{/* <Helmet>
 				<meta charSet="utf-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<title>Sign in</title>
 				<meta property="og:url" content={`${API}/signin`}/>
 				<meta name="description" content="Signin here to continue shopping"/>
-			</Helmet>
+			</Helmet> */}
 			{redirectUser()}
 			{showLoading()}
 			{showError()}
