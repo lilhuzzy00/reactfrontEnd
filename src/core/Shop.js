@@ -6,7 +6,9 @@ import Checkbox from "./Checkbox"
 import RadioBox from "./RadioBox"
 import {prices} from "./FixedPrices"
 import Card from "./Card"
-import "./Shop.css";
+import "./Shop.css"
+import {Helmet} from "react-helmet"
+
 
 
 
@@ -112,18 +114,12 @@ const Shop = () =>{
 
 		<Layout title="Homepage" description="Node js Ecommerce App" >
 
-		<helmet>
-				<title>Shop page</title>
-				<meta 
-					name="description"
-					content="Make shopping here"  
-				/>
-
-				<meta 
-					name="keywords"
-					content="Choose from our list of products and shop. Buy Shoes, Bags, Shirts, Underwears, Polo Jeans "  
-				/>
-			</helmet>
+			<Helmet>
+				<meta charSet="utf-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+				<title>Shop</title>
+				<meta name="description" content="Shop for items here"/>
+			</Helmet>
 
 			<div className="ShopRow" style={{backgroundColor: "white"}}>
 				<div className="ShopRow1">
