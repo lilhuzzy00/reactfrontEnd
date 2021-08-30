@@ -3,7 +3,6 @@ import Layout from "./Layout";
 import {getProducts, productByCategory} from "./ApiCore";
 import Card from "./Card";
 import "./Card.css";
-import {Helmet} from "react-helmet";
 // import Searched from "./Search";
 
 
@@ -85,13 +84,6 @@ const Home = () =>{
 
 	return(
 		<Layout title="Homepage" description="Node js Ecommerce App">
-			<Helmet>
-				<meta charSet="utf-8" />
-				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-				<title>Home Page</title>
-				<meta property="og:url" content={`${API}`} />
-				<meta name="description" content="Home page. View our list of products and shop"/>
-			</Helmet>
 
 {/*				<Searched />
 */}				<div className="firstDiv" style={{backgroundColor: "white"}}>
