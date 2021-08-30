@@ -6,10 +6,6 @@ import ShowPhoto from "./ShowPhoto";
 import Layout from "./Layout"
 import moment from "moment"
 import {API} from "../config"
-import {Helmet} from "react-helmet";
-
-
-
 const Products = (props) => {
 
 	const [product, setProduct] = useState({})
@@ -44,14 +40,6 @@ const Products = (props) => {
 	return(
 
 		<Layout>
-				<Helmet>
-					<meta charSet="utf-8" />
-					<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-					<title>{product.name}</title>
-					<meta property="og:url" content={`${API}/product/${product._id}`}/>
-					<meta property="og:image" content={`${API}/product/photo/${product._id}`}/>
-					<meta name="description" content="Single product page"/>
-				</Helmet>
 				<div className="singleProductPage" style={{backgroundColor: "white", paddingTop: "10px", paddingBottom: "110px"}} >
 					<div className="imageRow">
 						<ShowPhoto item={product} url="product" />
