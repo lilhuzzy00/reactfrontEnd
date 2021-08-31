@@ -89,7 +89,7 @@ const Home = () =>{
 				<meta charSet="utf-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<title>House of Goodiz</title>
-				<meta property="og:image" content="https://www.houseofgoodiz.com/images/image.png"
+				<meta property="og:image" content="https://www.houseofgoodiz.com/images/image.png" />
 				<meta name="description" content="Home page. View our list of products and shop"/>
 			</Helmet>
 
