@@ -77,7 +77,7 @@ const Signin = () =>{
 	const redirectUser = () =>{
 		if(redirectToReferrer){
 			if(user && user.role === 1){
-				return <Redirect to="/cart" />
+				return <Redirect to="/admin/dashboard" />
 			} else{
 				return <Redirect to="/user/dashboard" />
 			}
