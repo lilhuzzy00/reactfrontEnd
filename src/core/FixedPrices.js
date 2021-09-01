@@ -31,9 +31,14 @@ export const prices = [
 
 	{
 		_id: 5,
+		name: "N50 - N100",
+		array: [50, 100]
+	},
+
+	{
+		_id: 6,
 		name: "More Than N4000",
 		array: [4100, 5000]
 	}
-
 
 ]

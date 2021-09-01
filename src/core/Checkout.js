@@ -49,7 +49,11 @@ const getTotal = () => {
 }
 
 const showCheckout = () =>(
-	isAuthenticated() ? <div>{showDropIn()}</div> : <Link to="/signin">Signin</Link>
+	isAuthenticated() ? <div>{showDropIn()}</div> : 
+	<Link to={{pathname: "/signin", state: {from: "/cart"},}}
+	>
+	Signin
+	</Link>
 )
 
 let deliveryAddress = data.address;

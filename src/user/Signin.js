@@ -84,13 +84,13 @@ const Signin = () =>{
 		}
 	}
 
+	let intended = history.location.state;
+	console.log("intended", intended);
+	if(intended) history.push(intended.from);
+	else history.push("/cart");
 
 	return(
-		<Layout 
-			title="Signin page" 
-			description="Signin to node js app"
-			className="container col-md-4 offset-md-4"
-		>
+		<Layout className="container col-md-4 offset-md-4">
 			<Helmet>
 				<meta charSet="utf-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -103,7 +103,6 @@ const Signin = () =>{
 			{signUpForm()}
 		</Layout>
 	)
-
 }
 
 
