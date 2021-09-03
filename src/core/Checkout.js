@@ -50,7 +50,8 @@ const getTotal = () => {
 
 const showCheckout = () =>(
 	isAuthenticated() ? <div>{showDropIn()}</div> : 
-	<Link to={{pathname: "/signin", state: {from: "/cart"},}}
+	<Link to={{pathname: "/signin", 
+	state: {from: "/cart"}}}
 	>
 	Signin
 	</Link>
