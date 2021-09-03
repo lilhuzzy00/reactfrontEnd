@@ -84,10 +84,10 @@ const Signin = () =>{
 		}
 	}
 
-	let intended = history.location.state;
-	console.log("intended", intended);
-	if(intended) history.push(intended.from);
-	else history.push("/cart");
+	// let intended = history.location.state;
+	// console.log("intended", intended);
+	// if(intended) history.push(intended.from);
+	// else history.push("/cart");
 
 	return(
 		<Layout className="container col-md-4 offset-md-4">
